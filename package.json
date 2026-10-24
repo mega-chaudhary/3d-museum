@@ -1,0 +1,28 @@
+{
+  "name": "usss",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "build:single": "node scripts/build-single.mjs"
+  },
+  "dependencies": {
+    "@fontsource/caveat": "^5.1.0",
+    "@fontsource/cormorant-garamond": "^5.1.0",
+    "@fontsource/jost": "^5.1.1",
+    "@react-three/drei": "9.114.0",
+    "@react-three/fiber": "8.17.10",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.169.0",
+    "zustand": "4.5.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.3",
+    "vite": "5.4.10",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}
