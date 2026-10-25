@@ -1,9 +1,10 @@
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { viteSingleFile } from 'vite-plugin-singlefile'
 
-// Single-file build: everything inlined into dist-single/index.html.
 export default defineConfig({
+  base: '/3d-museum/',
   plugins: [react(), viteSingleFile()],
   publicDir: false,
   build: {
